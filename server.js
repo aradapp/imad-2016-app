@@ -20,10 +20,10 @@ app.get('/article-1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 app.get('/article-2', function (req, res) {
-  res.send("hi this is article two")
+  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
 app.get('/article-3', function (req, res) {
-  res.send("hi this is article three")
+res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
 });
 
 
